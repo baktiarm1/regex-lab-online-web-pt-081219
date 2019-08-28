@@ -14,11 +14,8 @@ end
 
 def words_five_letters_long(text)
   
-  if text.size.match(5)
-    true 
-  else 
-    false 
-  end 
+ text.scan(text.size == 5)
+    
 
 end
 
